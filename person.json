@@ -1,50 +1,201 @@
-{
-    "Imie": "Roksana",
-    "Nazwisko": "Butryn",
-    "Wiek": "23",
-    "Płeć": "Kobieta",
-    "E-mail": "xxx@xxx.pl",
-    "Telefon": {
-        "Telefon": 625540065,
-        "Telefon domowy": 338461551
-    },
-    "Adres": {
-        "Ulica": "Os.Os",
-        "Numer domu": 57,
-        "Numer mieszkania": 57,
-        "Miasto": "Kraków",
-        "Kod pocztowy": "31-636"
-    },
-    "Zainteresowania": [
-        "Motoryzacja",
-        "Off-Road",
-        "Moda",
-        "Ksiazki",
-        "Informatyka"
-    ],
-    "Rodzina": {
-        "Mąz ": {
-            "Imie": "Adrian",
-            "Nazwisko": "Szpiegla"
+[{
+        "Imie": "Roksana",
+        "Nazwisko": "Butryn",
+        "Wiek": "23",
+        "Płeć": "Kobieta",
+        "E-mail": "xxx@xxx.pl",
+        "Telefon": {
+            "Telefon": 625540065,
+            "Telefon domowy": 338461551
         },
-        "Dzieci": [{
-                "Imie": "Maja",
-                "Nazwisko": "Szpiegla",
-                "Wiek": 2,
-                "Płeć": "Kobieta",
-                "Zainteresowania": [
-                    "Puzzle"
-                ]
+        "Adres": {
+            "Ulica": "Os.Os",
+            "Numer domu": 57,
+            "Numer mieszkania": 57,
+            "Miasto": "Kraków",
+            "Kod pocztowy": "31-636"
+        },
+        "Zainteresowania": [
+            "Motoryzacja",
+            "Off-Road",
+            "Moda",
+            "Ksiazki",
+            "Informatyka"
+        ],
+        "Rodzina": {
+            "Mąz ": {
+                "Imie": "Adrian",
+                "Nazwisko": "Szpiegla"
             },
-            {
-                "Imie": "Kaja",
-                "Nazwisko": "Szpiegla",
-                "Wiek": 2,
-                "Płeć": "Kobieta",
-                "Zainteresowania": [
-                    "Puzzle"
-                ]
-            }
-        ]
+            "Dzieci": [{
+                    "Imie": "Maja",
+                    "Nazwisko": "Szpiegla",
+                    "Wiek": 2,
+                    "Płeć": "Kobieta",
+                    "Zainteresowania": [
+                        "Puzzle"
+                    ]
+                },
+                {
+                    "Imie": "Kaja",
+                    "Nazwisko": "Szpiegla",
+                    "Wiek": 2,
+                    "Płeć": "Kobieta",
+                    "Zainteresowania": [
+                        "Puzzle"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "Imie": "Roksana",
+        "Nazwisko": "Butryn",
+        "Wiek": "23",
+        "Płeć": "Kobieta",
+        "E-mail": "xxx@xxx.pl",
+        "Telefon": {
+            "Telefon": 625540065,
+            "Telefon domowy": 338461551
+        },
+        "Adres": {
+            "Ulica": "Os.Os",
+            "Numer domu": 57,
+            "Numer mieszkania": 57,
+            "Miasto": "Kraków",
+            "Kod pocztowy": "31-636"
+        },
+        "Zainteresowania": [
+            "Motoryzacja",
+            "Off-Road",
+            "Moda",
+            "Ksiazki",
+            "Informatyka"
+        ],
+        "Rodzina": {
+            "Mąz ": {
+                "Imie": "Adrian",
+                "Nazwisko": "Szpiegla"
+            },
+            "Dzieci": [{
+                    "Imie": "Maja",
+                    "Nazwisko": "Szpiegla",
+                    "Wiek": 2,
+                    "Płeć": "Kobieta",
+                    "Zainteresowania": [
+                        "Puzzle"
+                    ]
+                },
+                {
+                    "Imie": "Kaja",
+                    "Nazwisko": "Szpiegla",
+                    "Wiek": 2,
+                    "Płeć": "Kobieta",
+                    "Zainteresowania": [
+                        "Puzzle"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "Imie": "Roksana",
+        "Nazwisko": "Butryn",
+        "Wiek": "23",
+        "Płeć": "Kobieta",
+        "E-mail": "xxx@xxx.pl",
+        "Telefon": {
+            "Telefon": 625540065,
+            "Telefon domowy": 338461551
+        },
+        "Adres": {
+            "Ulica": "Os.Os",
+            "Numer domu": 57,
+            "Numer mieszkania": 57,
+            "Miasto": "Kraków",
+            "Kod pocztowy": "31-636"
+        },
+        "Zainteresowania": [
+            "Motoryzacja",
+            "Off-Road",
+            "Moda",
+            "Ksiazki",
+            "Informatyka"
+        ],
+        "Rodzina": {
+            "Mąz ": {
+                "Imie": "Adrian",
+                "Nazwisko": "Szpiegla"
+            },
+            "Dzieci": [{
+                    "Imie": "Maja",
+                    "Nazwisko": "Szpiegla",
+                    "Wiek": 2,
+                    "Płeć": "Kobieta",
+                    "Zainteresowania": [
+                        "Puzzle"
+                    ]
+                },
+                {
+                    "Imie": "Kaja",
+                    "Nazwisko": "Szpiegla",
+                    "Wiek": 2,
+                    "Płeć": "Kobieta",
+                    "Zainteresowania": [
+                        "Puzzle"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "Imie": "Roksana",
+        "Nazwisko": "Butryn",
+        "Wiek": "23",
+        "Płeć": "Kobieta",
+        "E-mail": "xxx@xxx.pl",
+        "Telefon": {
+            "Telefon": 625540065,
+            "Telefon domowy": 338461551
+        },
+        "Adres": {
+            "Ulica": "Os.Os",
+            "Numer domu": 57,
+            "Numer mieszkania": 57,
+            "Miasto": "Kraków",
+            "Kod pocztowy": "31-636"
+        },
+        "Zainteresowania": [
+            "Motoryzacja",
+            "Off-Road",
+            "Moda",
+            "Ksiazki",
+            "Informatyka"
+        ],
+        "Rodzina": {
+            "Mąz ": {
+                "Imie": "Adrian",
+                "Nazwisko": "Szpiegla"
+            },
+            "Dzieci": [{
+                    "Imie": "Maja",
+                    "Nazwisko": "Szpiegla",
+                    "Wiek": 2,
+                    "Płeć": "Kobieta",
+                    "Zainteresowania": [
+                        "Puzzle"
+                    ]
+                },
+                {
+                    "Imie": "Kaja",
+                    "Nazwisko": "Szpiegla",
+                    "Wiek": 2,
+                    "Płeć": "Kobieta",
+                    "Zainteresowania": [
+                        "Puzzle"
+                    ]
+                }
+            ]
+        }
     }
-}
+]
