@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <div id="result"></div>
+
+    <script>
+        // Check browser support
+        /*if (typeof(Storage) !== "undefined") {
+            // Store
+            localStorage.setItem("lastname", "Smith");
+            // Retrieve
+            document.getElementById("result").innerHTML = localStorage.getItem("lastname");
+        } else {
+            document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+        }*/
+        var text = '{ "dane" : [' +
+            '{ "imie":"Roxy" , "nazwisko":"Butryn" } ]}';
+        var obj = JSON.parse(text);
+        document.getElementById("result").innerHTML = obj.dane[0].imie + "<br/>" + obj.dane[0].nazwisko;
+    </script>
+
+</body>
+
+</html>
