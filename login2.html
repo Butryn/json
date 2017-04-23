@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+
+    <div id="result">
+        login: <input type="text" name="imie" id="login"><br> haslo: <input type="password" name="nazwisko" id="haslo"><br>
+        <input type="submit" onclick="porownanie()" value="Loginś">
+    </div>
+
+    <script>
+        localStorage.setItem("username", "annie");
+        localStorage.setItem("password", "ax123");
+
+        function porownanie() {
+            var login = document.getElementById("login").value
+            var haslo = document.getElementById("haslo").value
+            if (login == "" || haslo == "") {
+                alert("Proszę podać dane:");
+            } else {
+                if (login != localStorage.getItem("username") || haslo != localStorage.getItem("password")) {
+                    alert("Podane dane są nieprawidłowe.");
+                } else {
+                    alert("Logowanie prawidłowe.")
+                }
+            }
+        }
+        // Check browser support
+        if (typeof(Storage) !== "undefined") {
+            // Store
+            //localStorage.setItem("lastname", "Smith");
+            // Retrieve
+            //document.getElementById("result").innerHTML = localStorage.getItem("lastname");
+        } else {
+            //document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+        }
+    </script>
+
+</body>
+
+</html>
